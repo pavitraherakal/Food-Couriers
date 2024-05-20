@@ -6,12 +6,11 @@
   "scripts": {
     "test": "jest",
     "start": "parcel index.html",
-    "watch-test":"jest --watch",
     "build": "parcel build index.html"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pavitraherakal/ReactFeb2024.git"
+    "url": "git+https://github.com/pavitraherakal/Food-Couriers.git"
   },
   "keywords": [
     "react"
