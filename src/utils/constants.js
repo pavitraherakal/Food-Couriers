@@ -1,0 +1,2 @@
+export const LOGO_IMG="https://images.getbento.com/accounts/eb9a488fc75a82bf5bab67e4135595fc/media/images/6806746519namaste.png";
+export const RESTAURANT_IMG="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/";

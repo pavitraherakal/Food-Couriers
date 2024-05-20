@@ -1,4 +1,73 @@
-#heading{
-    color: red;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*.header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+.logo{
+    width:60px;
+    margin:10px;
+}
+
+.nav-items>ul{
+display: flex;
+list-style-type: none;
+}
+.nav-items>ul>li{
+    padding: 10px;
+    margin:10px;
+    font-size: 20px;
+}
+
+.restrorant-container{
+    display:flex;
+    flex-wrap: wrap;
+   
+}
+.restro-card{
+   width:200px;
+  padding: 5px;
+   background-color: lightgray;
+   margin: 10px;
 
 }
+.filter{
+    padding: 10px;
+    display: flex;
+    margin: 10px;
+}
+.filter-btn{
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.restro-card:hover{
+    border:1px solid black; 
+    cursor: pointer;
+}
+
+.restro-img{
+    width:200px;
+}
+.shimmer-container{
+    display:flex;
+    flex-wrap: wrap;
+}
+.shimmer-card{
+    width:200px;
+    height: 300px;
+    padding: 5px;
+     background-color: lightgray;
+     margin: 10px;
+}
+.searchbtn{
+    cursor: pointer;
+}
+.item-img{
+    width:200px;
+    margin-left: 704px;
+}*/
+
