@@ -16,10 +16,10 @@ const RestrorantContainer=(props)=>{
                       <h3 className="text-sm truncate ...">{cuisines.join(", ")}</h3>
                       <h3 className="text-sm">{costForTwo}</h3>
                       <h1 className=" bg-green-300 w-12" >{avgRating}  </h1>
-                      <div class="mt-16 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4">
+                     
     
 </div>
-                  </div>
+                 
                   </div>
                   
       )
