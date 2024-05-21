@@ -2,7 +2,7 @@
   "name": "react2024",
   "version": "1.0.0",
   "description": "first react project in 2024",
-  "main": "src/app.js",
+  
   "scripts": {
     "test": "jest",
     "start": "parcel index.html",
