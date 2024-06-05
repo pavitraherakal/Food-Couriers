@@ -8,7 +8,7 @@ const RestrorantContainer=(props)=>{
     const data=useContext(UserContext);
     const { cloudinaryImageId,name,cuisines,costForTwo,avgRating}=resdata;
       return(
-        <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+        <div >
   <div data-testid="restcard" className=" bg-gray-100 m-2 p-2 h-72 w-56  hover:bg-gray-200  ">
                       <img className=" h-40 w-56" alt="restro-img" 
                       src={RESTAURANT_IMG+cloudinaryImageId}></img>
@@ -19,8 +19,7 @@ const RestrorantContainer=(props)=>{
                      
     
 </div>
-                 
-                  </div>
+   </div>
                   
       )
   }

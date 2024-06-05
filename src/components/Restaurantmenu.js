@@ -6,7 +6,7 @@ import { useState } from "react";
 
 const Restaurantmenu = () => {
   const { resId } = useParams();
-  const [showIndex, setshowIndex] = useState(null);
+  const [showIndex, setshowIndex] = useState(0);
   const dummy = "Dummy Data";
   const restData = useRestaurantMenu(resId);
 
@@ -16,7 +16,7 @@ const Restaurantmenu = () => {
 
   const { name, cuisines, costForTwoMessage } =
     restData?.data?.cards[2]?.card?.card?.info;
-  //  const itemCards=restData?.data?.cards[4].groupedCard?.cardGroupMap.REGULAR.cards[1].card.card.itemCards;
+  // const itemCards=restData?.data?.cards[4].groupedCard?.cardGroupMap.REGULAR.cards[1].card.card.itemCards;
 
   const categories =
     restData?.data?.cards[4].groupedCard?.cardGroupMap?.REGULAR.cards.filter(
